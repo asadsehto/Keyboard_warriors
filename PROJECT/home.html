@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<!--Almost done -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
-    <title>HOME DECOR</title>
+    <title>SERENE WALLS</title>
 </head>
 <body>
+    <header>
     <nav>
         <button type="button" id="toggle-btn">
           <i class="fa fa-bars"></i>
@@ -15,19 +15,59 @@
         <span>MENU</span>
         <ul class="sidebar-menu">
           <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-          <li><a href="#"><i class="fa fa-suitcase"></i>Projects</a></li>
-          <li><a href="#"><i class="fa fa-user"></i>Profile</a></li>
-          <li><a href="#"><i class="fa fa-gear"></i>Settings</a></li>
-          <li id="bgModeBtn"><a href="#"><i id="bgModeIcon" class="fa fa-sun-o"></i>Mode</a></li>
+          <li><a href="#services"><i class="fa fa-suitcase"></i>Services</a></li>
+          <li><a href="login.html"><i class="fa fa-user"></i>Booking</a></li>
+          <li><a href="help.html"><i class="fa fa-gear"></i>Help</a></li>
         </ul>
       </nav>
     <div class="header">
-        <h1>HOME DECOR</h1>
+        <h1>SERENE WALLS</h1>
     </div>
+    </header>
     <div class="bg">
         
     </div>
-    <h1>SERVICES</h1>
+    <br>
+    <h1 id="services">SERVICES</h1>
+    <br><br>
+    <div class="imgs">
+        <div id="im1">
+            <a href="interior.html" ><img class="cardimgs" src="card1.jpg">
+            </a> 
+            <h3>INTERIOR DESIGN</h3>
+        </div>
+        <div id="im2">
+            <a href="maintenance.html"> <img class="cardimgs" src="card2.jpg">
+            </a>
+            <h3>MAINTENANCE</h3>
+        </div>
+        <div id="im3">
+            <a href="construction.html"> <img class="cardimgs" src="card3.jpg">
+            </a>
+            <h3>CONSTRUCTION</h3>
+        </div>
+    </div>
+    <br><br><br>
+    <div id="about">
+        <br>
+        <h2>ABOUT</h2>
+        <br>
+        <h3>We, Serene Spaces, provide incredible services to our customers. Services include construction, interior decor and home  maintenance services. For any service, you can get information from this page and afterwards can book a service. We warmly welcome our customers.</h3>
+    </div>
 
+    <!-- <div class="slideshow-container"> 
+        <img id="slideshow" src="img1.jpg" alt="Slideshow Image"> 
+    </div> 
+    <div id="2"></div>
+    <script>
+        load("slider.html");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById(2).innerHTML = req.responseText;
+        }
+    </script> -->
     <script src="script.js"></script>
 </body>
